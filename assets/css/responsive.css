@@ -1,0 +1,630 @@
+@media all and (max-width: 1400px) {
+  .coundproperties {
+    bottom: 48px;
+    left: 48px;
+    max-width: 565.78px;
+    padding: 26px 30px;
+  }
+  .coundproperties h4 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .benefitsPropertyList {
+    margin: 28px 0 45px;
+  }
+  .benefitsPropertyList li {
+    margin-bottom: 24px;
+  }
+  .single_benefitsProperty_right img {
+    max-width: 565px;
+  }
+  .leftAboutImages .image2 {
+    width: 191.25px;
+    height: 179.71px;
+  }
+  .rightAboutContent h2 {
+    margin: 14px 0 22px;
+    line-height: 48.87px;
+  }
+  .fiveYears {
+    margin: 22px 0;
+    gap: 26px;
+  }
+  .fiveYears img {
+    width: 136px;
+  }
+  .leftAboutImages .image3 {
+    width: 298.82px;
+    height: 383.65px;
+  }
+  .leftAboutImages .image1 {
+    width: 390.56px;
+    height: 535.52px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+  /* Mobile Menu */
+  .menu {
+    gap: 40px;
+  }
+  .menu nav ul {
+    gap: 30px;
+  }
+  .menu nav ul li a {
+    font-size: 19px;
+  }
+  /* Banner area */
+  .text_72 {
+    font-size: 60px;
+    line-height: 74.27px;
+  }
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 53.6%;
+  }
+  .PTHeading h2::before {
+    left: 60.6%;
+  }
+  /* Attractive offers */
+  .heading_AO p::after {
+    left: 52%;
+  }
+  /* Attractive offers */
+  .attractiveOffersItem {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .singleCard_CAU_img img {
+    width: 50px;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 45%;
+  }
+  .coundproperties {
+    bottom: 44px;
+    left: 40px;
+    gap: 12%;
+    max-width: 392.78px;
+    padding: 26px 20px;
+  }
+  .coundproperties h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .fiveYearsRight h3 span {
+    font-size: 18.22px;
+    line-height: 26.84px;
+  }
+  .fiveYearsRight h3 {
+    font-size: 46.67px;
+  }
+  .aboutUs {
+    gap: 40px;
+  }
+  .leftAbout {
+    width: 52%;
+  }
+  .rightAbout {
+    width: 48%;
+  }
+  .leftAboutImages .image1 {
+    width: 315.56px;
+  }
+  .leftAboutImages .image2 {
+    width: 150.25px;
+    height: 182.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 269.82px;
+  }
+  .single_AOI {
+    height: auto;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* Mobile Menu */
+  .menu {
+    display: flex !important;
+  }
+  .menu nav ul {
+    display: flex !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  /* Mobile Menu */
+  .header-title {
+    position: relative;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background: #ebebeb;
+    width: 100%;
+    height: auto;
+    top: 70px;
+    left: 0;
+    padding: 30px 30px 70px 30px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-top: 1px solid #1252ae;
+    z-index: 9999;
+  }
+  .menu nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .login {
+    margin-left: 0;
+  }
+  .menu .login::before {
+    content: "";
+    position: inherit;
+  }
+  .login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login .btn1 {
+    max-width: 120px;
+    width: 100%;
+    margin: auto;
+  }
+  /*Start Mobile Menu icon*/
+  .menu-bar {
+    display: block;
+  }
+  #toggleNav-icon {
+    width: 28px;
+    height: 23px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    top: 30%;
+    right: 0;
+  }
+  #toggleNav-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #444;
+    border-radius: 0px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  #toggleNav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(2) {
+    top: 8px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(3) {
+    top: 16px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -2px;
+    left: 2px;
+  }
+  #toggleNav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  #toggleNav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 18px;
+    left: 2px;
+  }
+  /*End Mobile Menu icon*/
+  /* Banner area */
+  .bannerContain h2 {
+    max-width: 400px;
+  }
+  .text_72 {
+    font-size: 52px;
+    line-height: 66.27px;
+  }
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 54.6%;
+  }
+  .PTHeading h2::before {
+    left: 63.6%;
+  }
+  /* Attractive offers */
+  .heading_AO p::after {
+    left: 53%;
+  }
+  /* Attractive offers */
+  .attractiveOffersItem {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footerLogo img {
+    max-width: 110px;
+  }
+  .footerLogo p {
+    max-width: 100%;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 43%;
+    width: 40px;
+    height: 40px;
+  }
+  .swiperBtnPN .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  .swiper-slide.singleCard_CAU.swiper-slide-next {
+    margin-bottom: 0;
+  }
+  .text_48 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+  .sellingAPropertyContain h2 {
+    margin: 14px 0;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .contain_BP {
+    flex-direction: column;
+    gap: 57px;
+  }
+  .single_benefitsProperty_left h2 {
+    margin: 14px 0 18px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .coundproperties {
+    max-width: 85%;
+    width: 85%;
+  }
+  .single_benefitsProperty_right {
+    order: -1;
+  }
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 100px;
+  }
+  .leftAbout {
+    width: 100%;
+  }
+  .rightAbout {
+    width: 100%;
+    margin-top: 592px;
+  }
+  .leftAboutImages .image1 {
+    width: 418.56px;
+  }
+  .leftAboutImages .image2 {
+    width: 268.25px;
+  }
+  .leftAboutImages .image3 {
+    width: 344.82px;
+  }
+  .aboutUsArea::after {
+    bottom: 623px;
+    left: -10%;
+  }
+  .rightAboutContent h2 {
+    max-width: 100%;
+    font-size: 37.26px;
+  }
+  .homeLocation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bannerLPP {
+    margin-top: 40px;
+    max-width: 398px;
+  }
+  .homeSearchBar {
+    max-width: 100%;
+  }
+  .homeSearchBar a {
+    text-align: center;
+  }
+  .bannerContain {
+    padding: 60px 0 90px;
+  }
+  .coundproperties {
+    gap: 26%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  /* Mobile Menu */
+  .main-header-area {
+    padding: 9px 0;
+  }
+  .menu {
+    top: 64px;
+  }
+  .header-logo img {
+    max-width: 75px;
+  }
+  /* Banner area */
+  .bannerContain {
+    padding: 60px 0;
+  }
+  .bannerContain h2 {
+    max-width: 300px;
+  }
+  .text_72 {
+    font-size: 40px;
+    line-height: 52.27px;
+  }
+  /* Property Types */
+  .text_36 {
+    font-size: 30px;
+    line-height: 40.16px;
+  }
+  .PTHeading h2::after {
+    left: 55.6%;
+  }
+  .PTHeading h2::before {
+    left: 66.6%;
+  }
+  /* Attractive offers */
+  .heading_AO p::after {
+    left: 54%;
+  }
+  /* Attractive offers */
+  .attractiveOffersItem {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Our Newsletters */
+  .ourNewsletters {
+    padding: 58px 0;
+    border-bottom: 56px;
+  }
+  .ourNewsForm {
+    flex-direction: column;
+  }
+  .ourNewsForm .formBox1 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 40%;
+  }
+  .text_34 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .faqQuestionsContain .accordion-item {
+    padding: 10px 30px;
+    margin-bottom: 24px;
+  }
+  .faqQuestionsContain .accordion-item:has(.accordion-button:not(.collapsed)) {
+    padding: 10px 30px 0;
+  }
+  .text_48 {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .single_benefitsProperty_left h2 {
+    margin: 12px 0 13px;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  .leftAboutImages .image1 {
+    width: 324.56px;
+    height: 464.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 188.25px;
+    height: 153.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 260.82px;
+    height: 338.65px;
+    top: 174px;
+  }
+  .aboutUsArea::after {
+    left: -20%;
+  }
+  .aboutUs {
+    margin-top: 70px;
+  }
+  .rightAbout {
+    margin-top: 490px;
+  }
+  .freSearchedLocations h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .single_AOI {
+    max-width: 90%;
+    width: 90%;
+  }
+  .coundproperties {
+    gap: 20%;
+  }
+}
+
+@media all and (max-width: 575px) {
+  /* Attractive offers */
+  .heading_AO p::after {
+    left: 55%;
+  }
+  .text_48 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .sellingAPropertyContain h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .sellingAPropertyContain {
+    padding: 70px 20px 70px;
+  }
+  .aboutUsArea::after {
+    left: -40%;
+  }
+  .rightAboutContent h2 {
+    font-size: 32.26px;
+  }
+  .allImages {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .PTHeading h2 {
+    margin: 46.43px 0 50.73px;
+  }
+  .propertyTypes .swiper {
+    height: 240px;
+  }
+  .heading_AO {
+    padding: 60px 0 36px 0;
+    text-align: center;
+  }
+  .freSearchedLocations h3 {
+    padding-bottom: 30px;
+  }
+  .sellingAProperty,
+  .benefitsProperty {
+    padding-top: 60px;
+  }
+  .faqQuestions {
+    padding: 60px 0 0;
+  }
+  .clientsAboutUs {
+    padding: 54px 0 0;
+  }
+  .ourNewsletters {
+    padding: 40px 0;
+  }
+  .footer_area {
+    padding-top: 40px;
+  }
+  .coundproperties {
+    gap: 40px;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .leftAboutImages .image1 {
+    width: 304.56px;
+    height: 439.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 170.25px;
+    height: 139.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 248.82px;
+    height: 336.65px;
+    top: 166px;
+  }
+  .coundproperties {
+    gap: 15px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 56.6%;
+  }
+  .PTHeading h2::before {
+    left: 70.6%;
+  }
+  /* Attractive offers */
+  .heading_AO p::after {
+    left: 55.8%;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 36%;
+    width: 36px;
+    height: 36px;
+  }
+  .swiperBtnPN .swiper-button-next {
+    width: 36px;
+    height: 36px;
+  }
+  .coundproperties {
+    bottom: 35px;
+    left: 29px;
+    padding: 24px 20px;
+  }
+  .coundproperties h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .leftAboutImages .image1 {
+    width: 60%;
+    height: 390.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 40%;
+    height: 130.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 51%;
+    height: 288.65px;
+    top: 150px;
+  }
+  .rightAbout {
+    margin-top: 408px;
+  }
+  .aboutUsArea::after {
+    left: -56%;
+    width: 349.31px;
+    height: 231.44px;
+    bottom: 60%;
+  }
+  .allImages {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+  }
+  .homeLocation_single_item {
+    width: 100%;
+  }
+  .homeSearchBar {
+    max-width: 100%;
+  }
+  .coundproperties {
+    flex-direction: column;
+  }
+  .benefitsSingleImg {
+    margin-left: -60px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .aboutUsArea::after {
+    bottom: 62%;
+  }
+}
